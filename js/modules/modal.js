@@ -22,20 +22,22 @@ export default class Modal {
     this.toggleModal();
   }
 
-  clickOutModal(e) {
-    if (e.target === this.containerModal) {
+  // fecha o modal ao clicar do lado de fora
+  clickOutModal(event) {
+    if (event.target === this.containerModal) {
       this.toggleModal();
     }
   }
 
+  // adiciona os eventos aos elementos do moda
   addModalEvents() {
-    this.openButton.addEventListener('click', this.toggleModal);
-    this.closeButton.addEventListener('click', this.toggleModal);
+    this.openButton.addEventListener('click', this.eventToggleModal);
+    this.closeButton.addEventListener('click', this.eventToggleModal);
     this.containerModal.addEventListener('click', this.clickOutModal);
   }
 
   init() {
-    if (this.botaoAbrir && this.botaoFechar && this.containerModal) {
+    if (this.openButton && this.closeButton && this.containerModal) {
       this.addModalEvents();
     }
     return this;
