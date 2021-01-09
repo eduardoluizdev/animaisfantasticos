@@ -1,5 +1,5 @@
 import initTabNav from './modules/tabs.js';
-import initAccordion from './modules/accordion.js';
+import Accordion from './modules/accordion.js';
 import SmoothScroll from './modules/smooth-scroll.js';
 import initAnimationOnScroll from './modules/animation-scroll.js';
 import initModal from './modules/modal.js';
@@ -13,8 +13,10 @@ import initFetchBitcoin from './modules/fetch-bitcoin.js';
 const smoothscroll = new SmoothScroll('[data-menu="suave"] a[href^="#"]');
 smoothscroll.init();
 
+const accordion = new Accordion('[data-anima="accordion"] dt');
+accordion.init();
+
 initTabNav();
-initAccordion();
 initAnimationOnScroll();
 initModal();
 initTooltip();
