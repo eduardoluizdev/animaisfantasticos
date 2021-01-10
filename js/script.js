@@ -1,9 +1,9 @@
 import TabNav from './modules/tabs.js';
 import Accordion from './modules/accordion.js';
 import SmoothScroll from './modules/smooth-scroll.js';
-import initAnimationOnScroll from './modules/animation-scroll.js';
 import Modal from './modules/modal.js';
-import initTooltip from './modules/tooltip.js';
+import Tooltip from './modules/tooltip.js';
+import initAnimationOnScroll from './modules/animation-scroll.js';
 import initDropdownMenu from './modules/menu-dropdown.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
@@ -22,8 +22,10 @@ tabnav.init();
 const loginModal = new Modal('[data-modal="open"]', '[data-modal="close"]', '[data-modal="container"]');
 loginModal.init();
 
+const tooltip = new Tooltip('[data-tooltip]');
+tooltip.init();
+
 initAnimationOnScroll();
-initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
