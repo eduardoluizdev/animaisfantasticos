@@ -11,9 +11,9 @@ Scripts created for the purpose of study and improvement in the ES6 version of J
 * ✅ Modal (Refactored to Class);
 * Outsideclick;
 * ✅ ToolTips (Refactored to Class);
-* ✅ Fatch Animals (Refactored);
+* ✅ Fetch Animals (Refactored);
 * ✅ Fetch BTC (Refactored);
 * Work Time;
 * Menu Mobile;
 * ✅ Animation Numbers (Refactored to Class);
-* Animation on Scroll.
+* ✅ Animation on Scroll (Refactored to Class).
