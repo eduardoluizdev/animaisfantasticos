@@ -5,15 +5,15 @@ Scripts created for the purpose of study and improvement in the ES6 version of J
 ## Developed Scripts:
 
 * ✅ Smooth Scroll (Refactored to Class);
-* Dropdown Menu;
+* ✅ Dropdown Menu;
 * ✅ Accordion (Refactored to Class);
 * ✅ Tab Nav (Refactored to Class);
 * ✅ Modal (Refactored to Class);
-* Outsideclick;
+* ✅ Outsideclick;
 * ✅ ToolTips (Refactored to Class);
 * ✅ Fetch Animals (Refactored);
 * ✅ Fetch BTC (Refactored);
-* Work Time;
-* Menu Mobile;
+* ✅ Work Time;
+* ✅ Menu Mobile;
 * ✅ Animation Numbers (Refactored to Class);
 * ✅ Animation on Scroll (Refactored to Class).
