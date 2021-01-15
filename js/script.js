@@ -4,8 +4,8 @@ import SmoothScroll from './modules/smooth-scroll.js';
 import Modal from './modules/modal.js';
 import Tooltip from './modules/tooltip.js';
 import ScrollAnima from './modules/scroll-anima.js';
+import DropdownMenu from './modules/menu-dropdown.js';
 
-import initDropdownMenu from './modules/menu-dropdown.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 
@@ -30,7 +30,9 @@ tooltip.init();
 const scrollAnima = new ScrollAnima('[data-anima="scroll"]');
 scrollAnima.init();
 
-initDropdownMenu();
+const dropdownMenu = new DropdownMenu('[data-dropdown]');
+dropdownMenu.init();
+
 initMenuMobile();
 initFuncionamento();
 
