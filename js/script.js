@@ -5,8 +5,8 @@ import Modal from './modules/modal.js';
 import Tooltip from './modules/tooltip.js';
 import ScrollAnima from './modules/scroll-anima.js';
 import DropdownMenu from './modules/menu-dropdown.js';
+import MenuMobile from './modules/menu-mobile.js';
 
-import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 
 import fetchAnimals from './modules/fetch-animais.js';
@@ -33,7 +33,9 @@ scrollAnima.init();
 const dropdownMenu = new DropdownMenu('[data-dropdown]');
 dropdownMenu.init();
 
-initMenuMobile();
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();
+
 initFuncionamento();
 
 fetchAnimals('../../animaisapi.json', '.numeros-grid');
