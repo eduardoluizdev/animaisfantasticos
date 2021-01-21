@@ -265,12 +265,12 @@ body {
 }
 
 [data-anima="accordion"] dt::after {
-  content: "⮧";
+  content: '⬎';
   margin-left: 10px;
 }
 
 [data-anima="accordion"] dt.ativo::after {
-  content: "⮥";
+  content: '⬏';
 }
 
 [data-anima="accordion"] dd.ativo {

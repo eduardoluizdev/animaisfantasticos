@@ -16,4 +16,5 @@ Scripts created for the purpose of study and improvement in the ES6 version of J
 * ✅ Work Time;
 * ✅ Menu Mobile;
 * ✅ Animation Numbers (Refactored to Class);
-* ✅ Animation on Scroll (Refactored to Class).
+* ✅ Animation on Scroll (Refactored to Class);
+* ✅ Slide.
