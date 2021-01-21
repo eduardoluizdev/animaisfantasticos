@@ -265,12 +265,19 @@ body {
 }
 
 [data-anima="accordion"] dt::after {
-  content: '⬎';
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url('../img/arrow-red.svg') no-repeat center center;
   margin-left: 10px;
+  transform: rotate(90deg);
+  transition: transform .3s;
 }
 
 [data-anima="accordion"] dt.ativo::after {
-  content: '⬏';
+  content: '';
+  transform: rotate(-90deg);
 }
 
 [data-anima="accordion"] dd.ativo {
@@ -321,3 +328,11 @@ body {
   font-weight: bold;
   border-radius: 2px;
 }
+
+.arrow-black {
+  background: url('../img/arrow-black.svg') no-repeat center center;
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+}
+
